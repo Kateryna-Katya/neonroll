@@ -491,3 +491,39 @@ gap: 24px;
     font-size: 14px;
   }
 }
+/* Moment of Impact */
+.moment-wrapper{
+    margin-top: 40px;
+    width: 375px;
+        height: 218px;
+    background-image: url("/img/moment/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: -16px;
+    padding: 96px 87px 20px;
+}
+.moment-text{
+font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.3;
+    text-align: center;
+    color: #ebebeb;
+    text-shadow: 1px 1px 2px 0 #091222;
+}
+@media only screen and (min-width: 1440px) {
+  .moment-wrapper{
+    margin-top: 48px;
+    width: 804px;
+        height: 324px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 157px 227px 83px;
+    background-image: url("/img/moment/desk.png");
+  }
+  .moment-text{
+font-size: 14px;
+    line-height: 1.5;
+  }
+}
