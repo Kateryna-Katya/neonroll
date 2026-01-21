@@ -330,6 +330,7 @@ border:1px solid #091222;
  background: linear-gradient(180deg, #1b3b6f 0%, #091222 100%);   
 }
 .choose-wrapper{
+    position: relative;
     margin-top: 32px;
     padding: 20px;
 border: 2px solid #ff54fb;
@@ -399,7 +400,7 @@ border: 2px solid #ff54fb;
         margin-right: auto;
         margin-top: 40px;
         padding: 30px 24px;
-        position: relative;
+    
  }
  .choose-text{
     padding: 16px;
@@ -420,4 +421,73 @@ border: 2px solid #ff54fb;
         height: 113px;
  }
 
+}
+/* Why */
+.why-section{
+    background-color: #091222;
+    height: 940px;
+    background-image: url("/img/why/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 292px;
+}
+.why-list{
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+}
+.why-item{
+    border: 2px solid #ff54fb;
+        border-radius: 16px;
+        padding: 16px;
+        width: 333px;
+        box-shadow: 0 0 14px 0 rgba(116, 215, 255, 0.7);
+            background: #1b3b6f;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+}
+.why-subtitle{
+    font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+        text-align: center;
+        color: #74d7ff;
+}
+.why-text{
+    font-size: 12px;
+}
+@media only screen and (min-width: 1440px) {
+  .why-section{
+    height: 1301px;
+    background-image: url("/img/why/desk.png");
+    background-size: cover;
+  }
+  .why-list{
+    margin-top: 48px;
+    width: 767px;
+        height: 344px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+  }
+  .why-item{
+    height: 160px;
+    padding: 24px;
+        width: 270px;
+        height: 160px;
+  }
+  .why-item-big{
+    width: 473px;
+  }
+  .why-subtitle{
+    font-size: 24px;
+  }
+  .why-text{
+    font-size: 14px;
+  }
 }
