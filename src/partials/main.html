@@ -79,7 +79,18 @@
         </div>
         <h3>Meet Melissa & Miranda</h3>
         <p class="characters-text">Together, they create a welcoming atmosphere that feels supportive rather than overwhelming.</p>
-        <img class="characters-img" src="/img/characters/content.png" alt="girls" loading="lazy">
+        <picture>
+            <source srcset="
+            /img/characters/content-desk.png 1x,
+            /img/characters/content-desk@2x.png 2x
+            " media="(min-width: 1439px)" />
+            <source srcset="
+            /img/characters/content-mob.png 1x,
+            /img/characters/content-mob@2x.png 2x
+            " media="(max-width: 1438px)" />
+        <img class="characters-img" src="/img/characters/content-mob.png" alt="girls" loading="lazy">
+        </picture>
+
         <ul class="characters-list">
             <li class="characters-item">
                 <h4 class="characters-item-title">Miranda</h4>
