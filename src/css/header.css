@@ -1,0 +1,133 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 100%;
+    height: 48px;
+    background: #091222;
+}
+
+.header-container {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 121px;
+    width: 28px;
+    height: 28px;
+    margin-left: auto;
+    background-color: inherit;
+}
+
+.navigation-list {
+    display: none;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    background: linear-gradient(180deg, #091222 0%, #1b3b6f 100%);
+    padding: 40px 33px 80px;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    position: fixed;
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: visibility 0.3s ease;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.menu-item {
+    text-align: center;
+font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ebebeb;
+padding: 8px 0px;
+    width: 170px;
+    height: 32px;
+    transition: border-bottom 0.2s ease;
+}
+
+.header-policy-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #ebebeb;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.menu-item.active {
+border-bottom: 1px solid #ff54fb;
+}
+
+@media screen and (min-width: 1440px) {
+
+
+    .header-container {
+        padding: 8px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .navigation-list {
+        display: flex;
+    
+        gap: 100px;
+      
+    }
+
+
+    .navigation-item {
+        padding: 8px;
+        height: 32px;
+font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #ebebeb;
+        transition: all 0.2s ease;
+    }
+
+    .navigation-item:hover {
+font-weight: 500;
+    }
+
+    .navigation-item:focus,
+    .navigation-item.active {
+border-bottom: 1px solid #ff54fb;
+font-weight: 500;
+    }
+
+}
