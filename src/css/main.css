@@ -325,3 +325,99 @@ border:1px solid #091222;
             z-index: 2;
     }
 }
+/* Choose */
+.choose-section{
+ background: linear-gradient(180deg, #1b3b6f 0%, #091222 100%);   
+}
+.choose-wrapper{
+    margin-top: 32px;
+    padding: 20px;
+border: 2px solid #ff54fb;
+    border-radius: 24px;
+    width: 343px;
+    height: 456px;
+    box-shadow: 0 0 32px 3px rgba(255, 84, 251, 0.5);
+    }
+    .choose-text{
+        font-family: "Roboto Flex", sans-serif;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 1.5;
+            text-align: center;
+            color: #ebebeb;
+    }
+    .choose-img{
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+    }
+    .choose-list-wrapper{
+        width: 161px;
+            height: 78px;
+            padding: 16px;
+            margin-top: 153px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 16px;
+    }
+    .big-choose-text{
+        font-family: "Londrina Solid", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #74d7ff;
+    }
+    .choose-list{
+        width: 161px;
+            height: 78px;
+                  display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 12px;  
+    }
+    .choose-item{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+    .choose-item-text{
+        font-family: "Roboto Flex", sans-serif;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #ebebeb;
+    }
+    .choose-desk{
+        display: none;
+    }
+@media only screen and (min-width: 1440px) {
+ .choose-wrapper{
+    width: 1062px;
+        height: 342px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        padding: 30px 24px;
+        position: relative;
+ }
+ .choose-text{
+    padding: 16px;
+        width: 808px;
+        height: 152px;
+        font-size: 20px;
+        text-align: left;
+ }
+ .choose-desk{
+    display: block;
+ }
+ .choose-list-wrapper{
+    margin-top: 17px;
+ }
+ .choose-list{
+    flex-direction: row;
+        width: 554px;
+        height: 113px;
+ }
+
+}
