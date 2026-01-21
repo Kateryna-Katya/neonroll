@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(180deg, #091222 0%, #1b3b6f 100%);
+    background: #091222;
     font-family: "Roboto Flex", sans-serif;
         font-weight: 300;
         font-size: 14px;
@@ -21,6 +21,7 @@ h3{
         line-height: 1.5;
         text-align: center;
         color: #74d7ff;
+        margin-top: 40px;
 }
 .title-wrapper{
     display: flex;
@@ -28,6 +29,7 @@ h3{
     align-items: center;
 }
 .btn{
+    bottom: none;
 border-radius: 40px;
     width: 240px;
     height: 48px;
@@ -36,7 +38,7 @@ border-radius: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: background 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
 }
 .btn:hover,
 .btn:active{

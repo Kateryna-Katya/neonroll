@@ -24,3 +24,50 @@
     </div>
     </div>
 </section>
+<section class="disclaimer-section">
+    <div class="container">
+        <div class="disclaimer-wrapper">
+        <h2 class="disclaimer-title">DISCLAIMER</h2>
+        <p class="disclaimer-text">neonroll.site IS A PLATFORM FOR HAVING FUN. THE PROBABILITY OF SUCCESS PLAYING THIS GAME CANNOT BE CONSIDERED THE SAME
+        AS SUCCESS IN REAL LIFE ACTIVITIES. GAME IS AVAILABLE TO ADULT AUDIENCES OVER 18 YEARS OF AGE. ENJOY PLAYING THIS GAME.</p>
+    </div>
+</div>
+</section>
+<section class="game-section" id="demo">
+    <div class="container game-container">
+        <div class="title-wrapper">
+            <img src="/img/ellipse.png" alt="ellipse" loading="lazy">
+            <h2>The Game</h2>
+        </div>
+        <h3>How PlingoBall Works</h3>
+        <p class="game-text">Here's the basic concept behind PlingoBall:<br/>balls are released from seashells and bounce through a field filled with
+        obstacles, directions, and targets.
+        Where the ball lands depends on the chosen setup and the path it takes — so every drop keeps you on edge.</p>
+        <div class="demo-wrapper">
+            <picture>
+                <source srcset="
+                        /img/demo/demo-desk.png 1x,
+                        /img/demo/demo-desk@2x.png 2x
+                        " media="(min-width: 1440px)" />
+                <source srcset="
+                        /img/demo/demo-mob.png 1x,
+                        /img/demo/demo-mob@2x.png 2x
+                        " media="(max-width: 1439px)" />
+                <img class="game-img" src="/img/demo/demo-mob.png" alt="Plin Go Ball" loading="lazy" />
+            </picture>
+        
+        
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe" name="gameIframe"></iframe>
+        
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img class="close-img" src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+        </div>
+        <a class="demo-btn btn" href="#" data-game-url="http://demo.evoplay.games/demo/instant/html5/evoplay/plingoball"
+            target="gameIframe">
+            <p>Start the Drop</p>
+        </a>
+    </div>
+</section>
