@@ -246,7 +246,7 @@ border:1px solid #091222;
 .characters-img {
     position: absolute;
     bottom: 2%;
-    left: 4%;
+    left: 5%;
     z-index: 2;
 }
 
@@ -299,5 +299,29 @@ border:1px solid #091222;
         background-image: url("/img/characters/desk.png");
         height: 848px;
         background-size: 100% 601px;
+    }
+    .characters-list{
+        margin-top: 194px;
+        width: 824px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .characters-item{
+        width: 240px;
+            height: 180px;
+            padding: 24px;
+            gap: 12px;
+    }
+    .characters-item-title{
+        font-size: 24px;
+    }
+    .characters-item-text{
+        font-size: 14px;
+    }
+    .characters-img{
+        position: absolute;
+            bottom: -29%;
+            left: 40%;
+            z-index: 2;
     }
 }
