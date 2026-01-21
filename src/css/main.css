@@ -527,3 +527,36 @@ font-size: 14px;
     line-height: 1.5;
   }
 }
+/* Invitation */
+.invitation-section{
+    background-image: url("/img/invitation/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 698px;
+}
+.invitation-text{
+    margin-top: 40px;
+    width: 246px;
+    font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.3;
+        color: #091222;
+        text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+ .invitation-section{
+    background-image: url("/img/invitation/desk.png");
+    height: 724px;
+ }
+ .invitation-text{
+    margin-top: 48px;
+    width: 705px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+ }
+}
